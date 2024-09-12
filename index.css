@@ -442,7 +442,7 @@
     transition: transform .5s;
 }
 .projects_card_2{
-    background-image: url('/images/project_2.png');
+    background-image: url('images/project_2.png');
     background-size: cover;
     background-position:start;
     height: 50vh;
@@ -455,7 +455,7 @@
     transition: transform .5s;
 }
 .projects_card_3{
-    background-image: url('/images/project_3.png');
+    background-image: url('images/project_3.png');
     background-size: cover;
     background-position: center;
     height: 50vh;
@@ -468,7 +468,7 @@
     transition: transform .5s;
 }
 .projects_card_4{
-    background-image: url('/images/project_4.png');
+    background-image: url('images/project_4.png');
     background-size: cover;
     background-position: center;
     height: 50vh;
