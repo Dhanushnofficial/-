@@ -48,7 +48,7 @@
     transition: height 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .dropdown_mennu.open {
-    height: 60vh;
+    height: 65vh;
 }
 .dropdown_mennu li{
     padding: 1rem 2rem;
@@ -195,7 +195,7 @@
     height: 50px;
     width: 2px;
     border: none;
-    background-color: black;
+    background-color: #92D9FE;
     margin-top: 20px;
 }
 
@@ -205,6 +205,7 @@
 .Skills_section{
     background-color: black;
     background-image: url('images/3d-rendering-holographic-cube.jpg');
+    background-attachment: fixed;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -213,7 +214,7 @@
     padding: 30px 50px 30px 50px;
     margin-top: 100px;
     position: relative;
-    z-index: 1000;
+    z-index: 100;
     overflow: hidden;
 }
 
@@ -387,6 +388,7 @@
     background-image: url('images/Untitled\ design.png');
     background-size: cover;
     /* background-position: center; */
+    background-attachment: fixed;
     padding: 20px;
     border-radius: 20px;
     
@@ -438,8 +440,7 @@
     position: relative;
     margin: 50px 0px 0 0px;
     box-shadow: rgba(255, 255, 255, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    transform:rotate(40deg);
-    transition: transform .5s;
+   
 }
 .projects_card_2{
     background-image: url('images/project_2.png');
@@ -451,8 +452,7 @@
     position: relative;
     margin: 50px 20px 0 20px;
     box-shadow: rgba(255, 255, 255, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    transform:rotate(40deg);
-    transition: transform .5s;
+    
 }
 .projects_card_3{
     background-image: url('images/project_3.png');
@@ -464,8 +464,7 @@
     position: relative;
     margin: 50px 20px 0 20px;
     box-shadow: rgba(255, 255, 255, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    transform:rotate(40deg);
-    transition: transform .5s;
+   
 }
 .projects_card_4{
     background-image: url('images/project_4.png');
@@ -477,45 +476,13 @@
     position: relative;
     margin: 50px 20px 0 20px;
     box-shadow: rgba(255, 255, 255, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    transform:rotate(40deg);
-    transition: transform .5s;
+    
 }
-.projects_card_1:hover{
-    transform:rotate(0deg);
-    position: relative;
-    z-index: 200;
-    transform: scale(1.2);
-    overflow: visible;
-    margin-top: -30px;
-}
-.projects_card_2:hover{
-    transform:rotate(0deg);
-    position: relative;
-    z-index: 200;
-    transform: scale(1.2);
-    overflow: visible;
-    margin-top: -30px;
-}
-.projects_card_3:hover{
-    transform:rotate(0deg);
-    position: relative;
-    z-index: 200;
-    transform: scale(1.2);
-    overflow: visible;
-    margin-top: -30px;
-}
-.projects_card_4:hover{
-    transform:rotate(0deg);
-    position: relative;
-    z-index: 200;
-    transform: scale(1.2);
-    overflow: visible;
-    margin-top: -30px;
-}
+
 .projects_card_1_description{
     position: absolute;
     bottom: 0px;
-    background-image: linear-gradient(to right, #4facfec6 0%, #00f2fe 100%);
+    background-image: linear-gradient(to right, #4facfe99 50%, #00f1fe7e 500%);
     backdrop-filter: blur(5px);
     width: 100%;
     height: 15%;
@@ -558,20 +525,20 @@
     font-size: 20px;
 }
 .contact_section_card_2{
-    border: 3px solid black;
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
     padding: 10px;
     border-radius: 10px;
-    
+   
 }
 .contact_section_card_2 a{
     font-size: 25px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 
 .dark{
-    background-color: #1e5155;
+    background-color: #000000;
     color: #e6e6e6;
 }
 
@@ -615,7 +582,7 @@
 }
 
 input:checked + .slider {
-    background-color: #1e5155;
+    background-color: #000000;
 }
 
 input:checked + .slider:before {
